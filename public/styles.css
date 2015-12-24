@@ -1,18 +1,32 @@
-/*nav {
+nav {
 	width: 100%;
 	background-color: #ffd24d;
 	position: fixed;
-}*/
+	text-decoration: none;
+	color: white;
+	z-index: 3;
+	margin: 0 auto;
+}
 
-#bckgrd {
-	background-image: all;
+nav ul li {
+	display: inline-block;
+	margin-left: 12%;
+	font-style: helvetica;
+	font-size: 22px;
+}
+
+#dabod {
+	background-image: url(ferrets1.jpeg);
+	background-size: cover;
 }
 
 #wrapper {
-	width: 300px;
-	height: 500px;
-	margin: 0 auto;
-	padding-top: 100px;
+	width: 48%;
+	height: 60%;
+	margin: 10% 0% 30% 30%;
+	opacity: 0.55;
+	background-color: white;
+	display: inline-block;
 }
 
 #point{
@@ -27,3 +41,50 @@ h1, h2{
 label, input{
 	font-size: 30px;
 }
+
+#news {
+	text-align: center;
+	padding: 0 30px;
+}
+
+#news h3 {
+	color: #ffd24d;
+	font-style: helvetica;
+}
+
+#news ul li {
+	list-style-type: none;
+	padding: 10px 0;
+}
+
+#news ul li a:link {
+	text-decoration: none;
+}
+
+#news ul li a:hover {
+	color: #ffd24d;
+}
+
+#footer {
+	width: 100%;
+	background-color: #ffd24d;
+	margin: 20px auto;
+	text-decoration: none;
+	color: white;	
+	z-index: 3;
+	display: block;
+	text-align: center;
+}
+
+#footer p {
+	font-size: 22px;
+    margin-top: 4px;
+    margin-bottom: -32px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+
+#adoptme {
+	resize: auto;
+}
+
